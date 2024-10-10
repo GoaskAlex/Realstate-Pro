@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  sever:{
+  server:{
     proxy:{
       '/server':{
         target:'http://localhost:3000',
